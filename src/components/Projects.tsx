@@ -1,13 +1,13 @@
 
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
-import { Brain, TrendingUp, Zap, Database, BarChart3 } from "lucide-react";
+import { Brain, TrendingUp, Zap, Database, BarChart3, MessageSquare } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
       Icon: Brain,
       name: "Customer Salary Prediction Model",
-      description: "Developed a machine learning model to predict customer salaries using advanced regression techniques and feature engineering.",
+      description: "Developed predictive models leveraging machine learning techniques to generate accurate salary predictions for customers.",
       href: "#",
       cta: "View Project",
       background: (
@@ -18,7 +18,7 @@ const Projects = () => {
     {
       Icon: TrendingUp,
       name: "Company Profit Prediction Model",
-      description: "Created predictive models to forecast company profits using historical data and machine learning algorithms.",
+      description: "Created predictive models to forecast company profits using historical data and advanced machine learning algorithms.",
       href: "#",
       cta: "Learn More",
       background: (
@@ -29,7 +29,7 @@ const Projects = () => {
     {
       Icon: Zap,
       name: "Net Speed Checker",
-      description: "Built a Python application to test and monitor internet connection speeds with real-time data visualization.",
+      description: "Built an AI tool integrating the model of chatgpt, Gemini and Groq to generate response for any Query with real-time performance monitoring.",
       href: "#",
       cta: "Explore",
       background: (
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       Icon: Database,
       name: "Face Detection System",
-      description: "Implemented computer vision algorithms for real-time face detection using OpenCV and Python.",
+      description: "Implemented computer vision algorithms for real-time face detection using OpenCV and Python with high accuracy.",
       href: "#",
       cta: "View Demo",
       background: (
@@ -51,7 +51,7 @@ const Projects = () => {
     {
       Icon: BarChart3,
       name: "Coin Flip Simulator",
-      description: "Developed a statistical simulation tool to analyze probability distributions and random events.",
+      description: "Developed a statistical simulation tool to analyze probability distributions and random events with data visualization.",
       href: "#",
       cta: "Try It",
       background: (
@@ -67,7 +67,7 @@ const Projects = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Projects</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A showcase of my work in machine learning, data analysis, and Python development.
+            A showcase of my work in AI, machine learning, data analysis, and Python development.
           </p>
         </div>
 

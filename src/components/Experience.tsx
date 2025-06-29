@@ -6,6 +6,17 @@ import { MapPin, Calendar, Building } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      title: "AI/ML Developer Intern",
+      company: "Telepathy Infotech",
+      location: "Jaipur, India",
+      period: "April 2025 - Present",
+      achievements: [
+        "Involved in real-world AI projects to develop, optimize, and deploy machine learning models for solving complex business problems",
+        "Working on cutting-edge AI solutions and implementation strategies"
+      ],
+      skills: ["Machine Learning", "AI Development", "Python", "Model Deployment"]
+    },
+    {
       title: "Data Analysis Using Python Internship",
       company: "CSRBOX in Collaboration with IBM",
       location: "Remote, India",
@@ -49,7 +60,7 @@ const Experience = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">Experience</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            My professional journey through internships that have shaped my expertise in data science and machine learning.
+            My professional journey through internships that have shaped my expertise in AI, data science and machine learning.
           </p>
         </div>
 
