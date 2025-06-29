@@ -1,4 +1,5 @@
 
+
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { Brain, TrendingUp, Zap, Database, BarChart3, MessageSquare } from "lucide-react";
 
@@ -27,15 +28,26 @@ const Projects = () => {
       className: "lg:col-start-2 lg:col-end-4 lg:row-start-1 lg:row-end-2",
     },
     {
-      Icon: Zap,
-      name: "Net Speed Checker",
-      description: "Built an AI tool integrating the model of chatgpt, Gemini and Groq to generate response for any Query with real-time performance monitoring.",
+      Icon: MessageSquare,
+      name: "AI Query Response Tool",
+      description: "Built an AI tool integrating ChatGPT, Gemini and Groq models to generate intelligent responses for any query with real-time performance monitoring.",
       href: "#",
       cta: "Explore",
       background: (
-        <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-orange-100 dark:from-yellow-950 dark:to-orange-900" />
+        <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-violet-100 dark:from-purple-950 dark:to-violet-900" />
       ),
       className: "lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-4",
+    },
+    {
+      Icon: Zap,
+      name: "Net Speed Checker",
+      description: "Developed a Python application to test and monitor internet connection speeds with real-time data visualization and performance analytics.",
+      href: "#",
+      cta: "Try It",
+      background: (
+        <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-orange-100 dark:from-yellow-950 dark:to-orange-900" />
+      ),
+      className: "lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-3",
     },
     {
       Icon: Database,
@@ -44,9 +56,9 @@ const Projects = () => {
       href: "#",
       cta: "View Demo",
       background: (
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-violet-100 dark:from-purple-950 dark:to-violet-900" />
+        <div className="absolute inset-0 bg-gradient-to-br from-red-50 to-pink-100 dark:from-red-950 dark:to-pink-900" />
       ),
-      className: "lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-3",
+      className: "lg:col-start-3 lg:col-end-4 lg:row-start-3 lg:row-end-4",
     },
     {
       Icon: BarChart3,
@@ -55,9 +67,9 @@ const Projects = () => {
       href: "#",
       cta: "Try It",
       background: (
-        <div className="absolute inset-0 bg-gradient-to-br from-pink-50 to-rose-100 dark:from-pink-950 dark:to-rose-900" />
+        <div className="absolute inset-0 bg-gradient-to-br from-teal-50 to-cyan-100 dark:from-teal-950 dark:to-cyan-900" />
       ),
-      className: "lg:col-start-3 lg:col-end-4 lg:row-start-3 lg:row-end-4",
+      className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
     },
   ];
 
@@ -84,3 +96,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
