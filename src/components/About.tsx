@@ -9,17 +9,17 @@ const About = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">About Me</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            I'm a passionate AI & Data Science student with expertise in Python programming, 
-            machine learning, and data analysis. I love turning data into actionable insights.
+            I'm a passionate AI engineer with expertise in Python programming, 
+            machine learning, and artificial intelligence. I love building intelligent systems and innovative AI solutions.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Currently pursuing my Bachelor of Technology in AI & Data Science at Vivekananda Global University, 
-              I have gained hands-on experience through multiple internships and have developed a strong foundation 
-              in machine learning, data analysis, and Python programming.
+              As a professional AI engineer, I have gained hands-on experience through multiple internships 
+              and have developed a strong foundation in machine learning, artificial intelligence, and Python programming. 
+              My expertise spans across LLM development, generative AI, and intelligent system design.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
@@ -29,7 +29,7 @@ const About = () => {
             </p>
 
             <div className="flex flex-wrap gap-2">
-              {["Python", "Machine Learning", "Data Analysis", "TensorFlow", "Scikit-learn", "SQL", "Power BI"].map((skill) => (
+              {["Python", "Machine Learning", "Artificial Intelligence", "TensorFlow", "Scikit-learn", "LLM Development", "Generative AI"].map((skill) => (
                 <span key={skill} className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
                   {skill}
                 </span>
@@ -44,7 +44,7 @@ const About = () => {
                   <GraduationCap className="h-8 w-8 text-primary" />
                   <div>
                     <h3 className="font-semibold text-lg">Education</h3>
-                    <p className="text-muted-foreground">Bachelor of Technology in AI & DS</p>
+                    <p className="text-muted-foreground">Bachelor of Technology in AI</p>
                   </div>
                 </div>
                 <div className="space-y-2">
