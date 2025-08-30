@@ -1,10 +1,21 @@
 
 
 import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
-import { Brain, TrendingUp, Zap, Database, BarChart3, MessageSquare } from "lucide-react";
+import { Brain, TrendingUp, Zap, Database, BarChart3, MessageSquare, Route } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    {
+      Icon: Route,
+      name: "AI Router",
+      description: "Intelligent AI routing system that automatically switches between GPT, Gemini, and other models based on question type to provide the most accurate response from the best-suited model.",
+      href: "#",
+      cta: "Explore",
+      background: (
+        <div className="absolute inset-0 bg-gradient-to-br from-emerald-50 to-teal-100 dark:from-emerald-950 dark:to-teal-900" />
+      ),
+      className: "lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-2",
+    },
     {
       Icon: Brain,
       name: "Customer Salary Prediction Model",
@@ -14,7 +25,7 @@ const Projects = () => {
       background: (
         <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-950 dark:to-indigo-900" />
       ),
-      className: "lg:row-start-1 lg:row-end-3 lg:col-start-1 lg:col-end-2",
+      className: "lg:row-start-1 lg:row-end-3 lg:col-start-3 lg:col-end-4",
     },
     {
       Icon: TrendingUp,
@@ -25,7 +36,7 @@ const Projects = () => {
       background: (
         <div className="absolute inset-0 bg-gradient-to-br from-green-50 to-emerald-100 dark:from-green-950 dark:to-emerald-900" />
       ),
-      className: "lg:col-start-2 lg:col-end-4 lg:row-start-1 lg:row-end-2",
+      className: "lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-4",
     },
     {
       Icon: MessageSquare,
@@ -36,7 +47,7 @@ const Projects = () => {
       background: (
         <div className="absolute inset-0 bg-gradient-to-br from-purple-50 to-violet-100 dark:from-purple-950 dark:to-violet-900" />
       ),
-      className: "lg:col-start-2 lg:col-end-3 lg:row-start-2 lg:row-end-4",
+      className: "lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-3",
     },
     {
       Icon: Zap,
@@ -47,7 +58,7 @@ const Projects = () => {
       background: (
         <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 to-orange-100 dark:from-yellow-950 dark:to-orange-900" />
       ),
-      className: "lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-3",
+      className: "lg:col-start-2 lg:col-end-3 lg:row-start-3 lg:row-end-4",
     },
     {
       Icon: Database,
@@ -69,7 +80,7 @@ const Projects = () => {
       background: (
         <div className="absolute inset-0 bg-gradient-to-br from-teal-50 to-cyan-100 dark:from-teal-950 dark:to-cyan-900" />
       ),
-      className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
+      className: "lg:col-start-1 lg:col-end-4 lg:row-start-4 lg:row-end-5",
     },
   ];
 
@@ -84,7 +95,7 @@ const Projects = () => {
         </div>
 
         <div className="animate-fade-in">
-          <BentoGrid className="lg:grid-rows-3 max-w-6xl mx-auto">
+          <BentoGrid className="lg:grid-rows-5 max-w-6xl mx-auto">
             {projects.map((project) => (
               <BentoCard key={project.name} {...project} />
             ))}

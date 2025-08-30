@@ -25,7 +25,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            AI & Data Science Student | Python Developer | Machine Learning Enthusiast
+            AI/ML Engineer | GEN AI | LLM Specialist
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
@@ -54,7 +54,7 @@ const Hero = () => {
               <div className="text-sm text-muted-foreground">Internships</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary">5+</div>
+              <div className="text-3xl font-bold text-primary">6+</div>
               <div className="text-sm text-muted-foreground">Projects</div>
             </div>
             <div className="text-center">
